@@ -20,6 +20,6 @@ jobs:
       - name: Deploy to Azure App Service
         uses: azure/webapps-deploy@v2
         with:
-          app-name: relearn
+          app-name: dishari
           publish-profile: ${{ secrets.AZURE_CICD_PUBLIC_PROFILE}}
           package: .
